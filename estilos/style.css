@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header img{
+    height: 40px;
+    margin: 20px;
+}
+
+main{
+    height: 100vh; 
+}
+
+body{
+    position: relative;
+    background: black url(../imagens/fundo_netflix.jpg) left center no-repeat ;
+    background-size: cover;
+}
+
+.login_body{
+    position: relative;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.701);
+    padding: 40px;   
+    width: 400px;
+    height: 550px;
+    margin: auto; 
+    border-radius: 10px;
+}
+
+.login_box{
+    display: block;
+    margin: auto;
+    width: 350px;
+}
+
+h1{
+    margin-bottom: 40px
+}
+
+form{
+    position: relative;
+    text-align: center;
+    width: 350px;
+    text-align: left;
+}
+
+
+input{
+    background-color: #232222;
+    margin-bottom: 12px;
+    height: 40px;
+    width: 350px;
+    border: rgba(255, 255, 255, 0.477) solid 1px;
+    border-radius: 3px;
+    text-indent: 5px;
+    color: white;
+}
+
+input:hover{
+    background-color: rgb(72, 72, 72);
+}
+
+button{
+    height: 40px;
+    width: 350px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: black solid 1px;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: #a70000;
+}
+
+form > a{
+    display: block;
+    width: 130px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgba(168, 167, 167, 0.688);
+}
+
+.checkbox{
+    display: flex;
+    text-indent: 10px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+.checkbox input{
+    width: 15px;
+    height: 15px;
+}
+
+p{
+    color: gray;
+}
+
+p > a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+p > a:hover{
+    text-decoration: underline;
+}
+
+#small{
+    margin-top: 20px;
+    font-size: small;
+}
+
+#blue{
+    font-weight: normal;
+    color: blue;
+    text-decoration: none;
+}
+
+#blue:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.441);
+}
+
+footer p{
+    color: white;
+}
+
+footer a{
+    color: white;
+    font-weight: normal;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
